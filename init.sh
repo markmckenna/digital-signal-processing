@@ -5,3 +5,4 @@ if [ ! -d .venv ]; then
 fi
 
 pip install -r requirements.txt
+cp -a hooks .git/hooks
