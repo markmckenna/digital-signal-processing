@@ -1,0 +1,15 @@
+# Digital Signal Processing test
+
+## Getting started
+
+*Note:* This repo was authored on M2 MacOS using Python 3.12; build tools tested there.
+
+- The first time you use the repo, run `./init.sh` to set up a Python virtual environment and install local dependencies.
+  - You can also rerun this command to update dependencies, if they change upstream.
+- Every time you're going to start developing, run `source activate` to enter the virtual environment.
+- Source files are stored in `/src`
+
+## Making changes
+
+- If you pull in extra dependencies, update deps list: `pip freeze > requirements.txt`
+- Test, commit and push to a branch. Use pull requests.
